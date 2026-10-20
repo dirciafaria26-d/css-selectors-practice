@@ -1,0 +1,69 @@
+/* Element Selector: Set full page background and font */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* ID Selector: Center the main heading */
+#main-title {
+    text-align: center;
+    color: #1e3a8a;
+    border-bottom: 2px solid #93c5fd;
+    padding-bottom: 10px;
+}
+
+/* Element Selector: Style the description paragraph */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #334155;
+    text-align: justify;
+}
+
+/* Element Selector: Unordered list styling */
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+/* Class Selectors: Different colors for each hobby */
+.hobby-coding {
+    color: #2563eb;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.hobby-music {
+    color: #7c3aed;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.hobby-sports {
+    color: #059669;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+/* Class Selector: Initial button styling */
+.action-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 25px auto 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Pseudo-class Selector (:hover): Hover effect on button */
+.action-btn:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
